@@ -5,7 +5,7 @@ import pickle
 import base64
 
 # Load trained model and label encoders
-with open(r'predictive_model.pkl', 'rb') as f:
+with open('predictive_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 with open(r"predictive_label.pkl", 'rb') as f:
