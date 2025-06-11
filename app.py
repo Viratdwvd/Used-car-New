@@ -107,8 +107,8 @@ def add_bg_from_local(image_file):
         unsafe_allow_html=True
     )
 
-# Add background image
-add_bg_from_local(r"download.jpeg")
+# # Add background image
+# add_bg_from_local(r"download.jpeg")
 
 # Define Streamlit UI
 def main():
