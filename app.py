@@ -108,7 +108,7 @@ def add_bg_from_local(image_file):
     )
 
 # Add background image
-add_bg_from_local(r"C:\Users\Virat Dwivedi\Pictures\download.jpeg")
+add_bg_from_local(r"download.jpeg")
 
 # Define Streamlit UI
 def main():
